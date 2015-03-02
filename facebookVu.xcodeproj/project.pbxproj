@@ -13,6 +13,8 @@
 		2868A8D41AA17B2E00C12E8C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2868A8D31AA17B2E00C12E8C /* Images.xcassets */; };
 		2868A8D71AA17B2E00C12E8C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2868A8D51AA17B2E00C12E8C /* LaunchScreen.xib */; };
 		2868A8E31AA17B2E00C12E8C /* facebookVuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2868A8E21AA17B2E00C12E8C /* facebookVuTests.swift */; };
+		2868A8ED1AA182E900C12E8C /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2868A8EC1AA182E900C12E8C /* FeedViewController.swift */; };
+		2868A8EF1AA1842200C12E8C /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2868A8EE1AA1842200C12E8C /* PhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		2868A8DC1AA17B2E00C12E8C /* facebookVuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = facebookVuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2868A8E11AA17B2E00C12E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2868A8E21AA17B2E00C12E8C /* facebookVuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = facebookVuTests.swift; sourceTree = "<group>"; };
+		2868A8EC1AA182E900C12E8C /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		2868A8EE1AA1842200C12E8C /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				2868A8D31AA17B2E00C12E8C /* Images.xcassets */,
 				2868A8D51AA17B2E00C12E8C /* LaunchScreen.xib */,
 				2868A8CA1AA17B2E00C12E8C /* Supporting Files */,
+				2868A8EC1AA182E900C12E8C /* FeedViewController.swift */,
+				2868A8EE1AA1842200C12E8C /* PhotoViewController.swift */,
 			);
 			path = facebookVu;
 			sourceTree = "<group>";
@@ -213,6 +219,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2868A8CF1AA17B2E00C12E8C /* ViewController.swift in Sources */,
+				2868A8EF1AA1842200C12E8C /* PhotoViewController.swift in Sources */,
+				2868A8ED1AA182E900C12E8C /* FeedViewController.swift in Sources */,
 				2868A8CD1AA17B2E00C12E8C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,6 +346,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = facebookVu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -348,6 +357,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = facebookVu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
